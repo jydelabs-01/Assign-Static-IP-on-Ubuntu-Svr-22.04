@@ -62,7 +62,8 @@ sudo touch /etc/netplan/01-network-manage-all.yaml
 change the file permissionn to 644 using: chmod 644 /etc/netplan/01-network-manage-all.yaml
 
 STEP 4: Edit the network interface configuration file using the following command:
-# configs below are in ymal indentation
+
+# configs below are in yaml indentation
 
 network:
   version: 2
